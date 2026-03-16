@@ -58,12 +58,43 @@
 # a**=2
 # print(a)
 
-a=6
-b=2
+# a=6
+# b=2
 # print(a>b)
 # print(a==b)
 # print((a>2)and(b>1))
 
-name = "Nirdesh"
-print("N" in name)
+# name = "Nirdesh"
+# print("N" in name)
 
+# 
+name = "Nirdesh"
+print(name[0])
+print(name[-1])
+print(len(name))
+
+a= "Hello"
+b="World"
+print(a + b)
+print(a*3)
+
+test = " Hello "
+print(test.upper())
+print(test.lower())
+print(test.strip())
+print("apple".replace("a","A"))
+print("N,i,rdesh".split(","))
+print("".join(['m','o','m']))
+
+word = "python"
+print(word[0:2])
+print(word[2:])
+
+name = "nirdesh"
+age = 22
+
+print(f"My name is {name}. I am {age}")
+print("My name is {}. I am {}".format("hari",12))
+
+print("z"in name)
+print("z" not in name)
