@@ -21,15 +21,49 @@
 # a,b,c=10,12,"Hello"
 # print(c)
 
-a=5
-b=2.3
+# a=5
+# b=2.3
 
-c=a+b
-print(c)
-print(type(c))
+# c=a+b
+# print(c)
+# print(type(c))
 
-num_string = "12"
-print("Before conversion",type(num_string))
+# num_string = "12"
+# print("Before conversion",type(num_string))
 
-num_string =int(num_string)
-print("After Conversion",type(num_string))
+# num_string =int(num_string)
+# print("After Conversion",type(num_string))
+
+# print("Good morning",end=" ")
+# print("Its raining")
+
+# print("hello","I am nirdesh",sep=". ")
+
+
+# num = input("Enter a number ")
+# print("The number is ",num)
+# print(type(num))
+
+# num1 = int(input("Enter a second number"))
+# print(type(num1))
+
+# print(5+3)
+# print(5**2)
+# print(10//3)
+# print(12%3)
+
+# a=2
+# a+=2
+# a*=2
+# a**=2
+# print(a)
+
+a=6
+b=2
+# print(a>b)
+# print(a==b)
+# print((a>2)and(b>1))
+
+name = "Nirdesh"
+print("N" in name)
+
