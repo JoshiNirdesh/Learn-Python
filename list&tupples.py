@@ -46,12 +46,43 @@
 #     if student[0].lower()=='r':
 #         print(student)
 
-students = [("ram",60),("hari",80),("shyam",9)]
-highest = 0
+# students = [("ram",60),("hari",80),("shyam",9)]
+# highest = 0
 
-for s in students:
-    if s[1]>highest:
-        highest=s[1]
-print(highest)
+# for s in students:
+#     if s[1]>highest:
+#         highest=s[1]
+# print(highest)
 
+# student = {
+#     "name":"Nirdesh",
+#     "age":12
+# }
+# print(student)
+# print(student["name"])
+# student = {
+#     "name":"Nirdesh",
+#     "age":12,
+#     "city":"Kathmandu"
+# }
+# print(student)
+# print(student["age"])
+# student["country"]='UK'
+# print(student)
+# student["city"]="Paris"
+# print(student)
+# del student['age']
+# print(student)
 
+# data = {"name": "Sam", "salary": 5000}
+
+# if 'salary'in data:
+#     print("Exist")
+# else:
+#     print("Not exist")
+
+d1 = {"a": 1, "b": 2}
+d2 = {"c": 3, "d": 4}
+d1.update(d2)
+print(d1)
+print(d1.keys())
