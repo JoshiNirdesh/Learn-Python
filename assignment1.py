@@ -93,6 +93,8 @@
 # password = reversed+str(num)
 # print(password)
 
-word = input("Enter a word : ")
-print(word[1:]+ word[0]+"ay")
+# word = input("Enter a word : ")
+# print(word[1:]+ word[0]+"ay")
 
+age = input("Enter your age : " )
+print("Your age is ",age)
