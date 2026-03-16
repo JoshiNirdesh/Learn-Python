@@ -17,3 +17,6 @@ name = "Nirdesh"
 print("My name is ",name)
 name = "Ram"
 print("My name is ",name)
+
+a,b,c=10,12,"Hello"
+print(c)
