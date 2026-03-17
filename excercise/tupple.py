@@ -1,0 +1,6 @@
+my_tupple = ("ram","shyam","hari")
+print(my_tupple[0])
+list = list(my_tupple)
+list.append("Nirdesh")
+new_tupple=tuple(list)
+print(new_tupple)
