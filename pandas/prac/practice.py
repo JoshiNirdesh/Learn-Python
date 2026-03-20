@@ -26,7 +26,10 @@ print(df)
 # df.insert(0,"Employee Id",[1,2,3,4,5,6])
 # print(df)
 
-df.loc[0,'salary']=500
-print(df)
-df['salary']=df['salary']*1.05
+# df.loc[0,'salary']=500
+# print(df)
+# df['salary']=df['salary']*1.05
+# print(df)
+
+df.drop(columns=['performance'], inplace = True)
 print(df)
