@@ -1,0 +1,33 @@
+order_id,order_date,customer_name,product,category,quantity,price,city,payment_method
+1001,2024-01-05,John Doe,Laptop,Electronics,1,800,New York,Credit Card
+1002,2024-01-06,Alice Smith,Phone,Electronics,2,500,Los Angeles,Debit Card
+1003,2024-01-07,Bob Johnson,Shirt,Clothing,3,30,Chicago,Cash
+1004,2024-01-08,Emily Davis,Shoes,Clothing,1,60,Houston,Credit Card
+1005,2024-01-09,Michael Brown,Tablet,Electronics,1,300,Phoenix,UPI
+1006,2024-01-10,Jessica Wilson,Headphones,Electronics,2,100,Philadelphia,Credit Card
+1007,2024-01-11,David Martinez,Watch,Accessories,1,150,San Antonio,Debit Card
+1008,2024-01-12,Sarah Anderson,Bag,Accessories,2,80,San Diego,Cash
+1009,2024-01-13,Chris Thomas,Laptop,Electronics,1,850,Dallas,Credit Card
+1010,2024-01-14,Karen Taylor,Dress,Clothing,2,120,San Jose,UPI
+1011,2024-01-15,James Moore,Phone,Electronics,1,550,Austin,Credit Card
+1012,2024-01-16,Linda Jackson,Shoes,Clothing,2,70,Jacksonville,Debit Card
+1013,2024-01-17,Robert White,Tablet,Electronics,1,320,Fort Worth,Cash
+1014,2024-01-18,Patricia Harris,Bag,Accessories,1,90,Columbus,Credit Card
+1015,2024-01-19,Daniel Clark,Watch,Accessories,2,200,Charlotte,UPI
+1016,2024-01-20,Jennifer Lewis,Shirt,Clothing,4,25,San Francisco,Cash
+1017,2024-01-21,Matthew Walker,Headphones,Electronics,1,120,Indianapolis,Credit Card
+1018,2024-01-22,Nancy Hall,Laptop,Electronics,1,900,Seattle,Debit Card
+1019,2024-01-23,Anthony Allen,Phone,Electronics,2,480,Denver,Credit Card
+1020,2024-01-24,Mark Young,Shoes,Clothing,1,65,Boston,UPI
+1021,2024-01-25,Steven King,Bag,Accessories,3,75,El Paso,Cash
+1022,2024-01-26,Laura Scott,Watch,Accessories,1,180,Detroit,Credit Card
+1023,2024-01-27,Kevin Green,Tablet,Electronics,2,310,Memphis,Debit Card
+1024,2024-01-28,Angela Baker,Dress,Clothing,1,150,Baltimore,UPI
+1025,2024-01-29,Paul Nelson,Headphones,Electronics,3,95,Milwaukee,Cash
+1026,2024-01-30,Emma Carter,Laptop,Electronics,1,870,Albuquerque,Credit Card
+1027,,John Doe,Laptop,Electronics,1,800,New York,Credit Card
+1028,2024-01-31,,Phone,Electronics,2,500,Los Angeles,Debit Card
+1029,invalid_date,Alice Smith,Shirt,Clothing,3,30,Chicago,Cash
+1030,2024-02-01,Bob Johnson,Shoes,Clothing,,60,Houston,Credit Card
+1031,2024-02-02,Emily Davis,Tablet,Electronics,1,,Phoenix,UPI
+1032,2024-02-02,Emily Davis,Tablet,Electronics,1,,Phoenix,UPI
