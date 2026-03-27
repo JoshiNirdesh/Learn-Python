@@ -1,6 +1,7 @@
 #comment
 print("hello")
 print('"quotes"')
+import math
 
 print("New line \n this is new line")
 print("Tab \t 5 space")
@@ -101,3 +102,58 @@ print(date.find("feb"))
 #isaplha
 
 #isaplha
+
+x=5
+y=5.6
+z=4+3j
+print(type(z))
+
+n = "12"
+print(n*3)
+print(int(n)*3)
+
+
+
+#round() to even
+price = 3421.4324
+
+print(round(price))
+print(math.floor(price))
+print(math.ceil(price))
+
+# random()
+import random
+print(random.random())
+# print(random.random(1,6)) error
+print(random.randint(1,4))
+
+# is_integer
+# is_instance
+
+#any true one
+#all all true
+# isinstance
+
+user_name = ""
+age = 12
+
+if (user_name==""):
+    print("Username is empty")
+    if(age>=18):
+        print("Age greater than equal to 18")
+
+# password = input("Enter a password: ")
+
+# if(len(password)>8 and " " not in password):
+#     print("valid")
+# else:
+#     print("not valid")
+
+email = "nirdeshjoshi@gmail.com"
+print(email.isalpha())
+
+if (email != " " and "@" in email and email.endswith(".com")):
+    print("valid")
+else:
+    print("Not valid")
+
