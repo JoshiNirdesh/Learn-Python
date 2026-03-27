@@ -157,3 +157,28 @@ if (email != " " and "@" in email and email.endswith(".com")):
 else:
     print("Not valid")
 
+#in
+#is a is b check memmory pointing
+
+score = 6
+
+x="A" if score >9 else 'b'
+print(x)
+
+x = "A" if score>10 else "B" if score<5 else "F"
+print(x)
+
+# unpacking
+list = [1,"ram","usa",2000]
+print(list)
+
+id,name,country,usa = list
+print(name)
+
+id ,*details,salary = list
+print(id)
+
+print(details)
+
+id,_,country,_ =list
+print(country)
